@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+p {
+  font-weight: 300;
+  color: #111;
+}
+body {
+  min-height: 1000px;
+}
+.banner {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background: url(banner.jpg);
+  background-size: cover;
+}
+.banner .content {
+  /* max-width: 10px; */
+  text-align: center;
+}
+.banner .content h2 {
+  font-size: 4em;
+  color: #fff;
+  text-align: left;
+  /* display: inline-flex; */
+}
+.banner .content h3 {
+  font-size: 2em;
+  color: #fff;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 10000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+header.sticky {
+  background: blue;
+  padding: 10px 100px;
+  box-shadow: 0.5px 20px rgba(0, 0, 0, 0.05);
+}
+header .navigation {
+  display: flex;
+  position: relative;
+  float: right;
+  margin-top: 2%;
+}
+header .navigation li {
+  list-style: none;
+  margin-left: 30px;
+}
+header .navigation li a {
+  text-decoration: none;
+  color: black;
+  font-size: 140%;
+}
+header .sticky.navigation li a {
+  color: red;
+}
+header .navigation li a:hover {
+  color: chocolate;
+}
+section {
+  padding: 100px;
+}
+.services {
+  text-align: center;
+  font-family: cursive;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: rgb(204, 189, 240);
+}
+.heading img {
+  align-content: center;
+}
+.heading.white {
+  color: black;
+}
+.services .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+/* .services .content .servicesBx {
+  padding: 40px 20px;
+  background: rgb(204, 189, 240);
+  color: red
+  max-width: 340px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
+} */
+.services .content .servicesBx h6 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.work {
+  background-color: darkblue;
+}
+.work .heading h1 {
+  font-size: 250%;
+  text-align: center;
+  color: #fff;
+}
+h2 {
+  text-decoration: solid;
+  text-align: center;
+  position: static;
+  color: #fff;
+}
+section h1 {
+  text-align: center;
+  font-size: 250%;
+}
+section h1 img {
+  height: 340;
+  width: 598.133;
+}
+.img h2 {
+  display: flex;
+  text-align: right;
+}
+.heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #111;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.workBx {
+  width: 70%;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.slider {
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+}
+.slides {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  animation: slide 10s infinite;
+  overflow: hidden;
+}
+.carousel-inner img {
+  width: 75%;
+  height: 65%;
+}
+.content h3 {
+  text-align: center;
+  margin-left: 45%;
+  margin-bottom: 5rem;
+}
+.w50 img {
+  width: 40%;
+  height: 40%;
+  vertical-align: middle;
+  border-style: none;
+}
+.box {
+  color: black;
+  padding: 10px;
+  position: relative;
+  margin: auto;
+}
+
+#footer-area {
+  padding: 40px;
+  padding-right: 50%;
+  background: #fff;
+  display: flex;
+}
+/* .footer-social{
+  margin-top: 20px;
+} */
+.single-footer h3 {
+  font-weight: 500;
+  margin-bottom: 25px;
+  color: black;
+  font-family: cursive;
+  padding-left: 500px;
+  top: 10%;
+}
+.link-area li {
+  padding: ;
+  list-style: none;
+}
+.link-area li a {
+  text-transform: capitalize;
+  font-family: cursive;
+}
+
+.footer-dark {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #282d32;
+}
+
+.footer-dark h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+  color: #fff;
+}
+.shape[_ngcontent-c10] li[_ngcontent-c10] {
+  font-size: 13px;
+  list-style: none;
+  margin-left: 23px;
+}
+.footer-bottom {
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.col-md-3 {
+  padding-top: 20px;
+}

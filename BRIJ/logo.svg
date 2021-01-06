@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="86" viewBox="0 0 200 86">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#9ACB5C" font-family="Roboto-Bold, Roboto" font-size="32.4" font-weight="bold" letter-spacing="2.16">
+            <tspan x="64.8" y="40.659">Right</tspan> <tspan x="64.8" y="75.459">Invoice</tspan> <tspan x="184.856" y="75.459">s</tspan>
+        </text>
+        <path fill="#FFDE00" fill-rule="nonzero" d="M19.2 15.108L55.963 0v57.542L19.2 70.572z"/>
+        <path fill="#4CBAEF" fill-rule="nonzero" d="M0 30.508L36.763 15.4v57.542L0 85.972z"/>
+        <path fill="#94C850" fill-rule="nonzero" d="M36.763 65.107L18 71.757V23.112L36.763 15.4v49.707z"/>
+        <g fill-rule="nonzero" stroke="#FFF" stroke-linecap="square" stroke-width="6">
+            <path d="M9 47.977l9.6 8.292M19.2 56.862l18.6-21.916"/>
+        </g>
+    </g>
+</svg>
